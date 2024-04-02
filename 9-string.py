@@ -4,9 +4,6 @@ print("=====")
 print("\n")
 
 
-
-
-
 print("concatenacion de string")
 print("=====")
 name = "Nicolas"
