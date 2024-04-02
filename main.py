@@ -1,38 +1,41 @@
 print("=====")
-print("clase 9: string")
+print("clase 10: Enteros")
 print("=====")
 print("\n")
 
+lives = 3
 
-
-
-
-print("concatenacion de string")
+print(" valores enteros")
 print("=====")
-name = "Nicolas"
-last_name = 'Molina Monroy'
-full_name = name + " " + last_name
-print(full_name)
-print("\n")
+print(type(lives))
+age = 12
+budget = 100
 
-print("Incluir grámatica dentro de la cadenas de texto")
-print("=====")
-quote = "I'm Nicolas"
-quote2 = ' She said "Hello"  '
-print(quote)
-print(quote2)
-print("\n")
+temperature = 12.12
+print(type(temperature))
 
+lives = 2
+print(lives)
+lives = 1
+print(lives)
 
-# format
-template = "Hola, mi nombre es " + name + " y mi apellido es " + last_name
-print('v1 ', template)
-print("\n")
+lives = 12 + 15
+print(lives)
 
-template = "Hola, mi nombre es {} y mi apellido es {}".format(name, last_name)
-print('v2', template)
-print("\n")
+lives = lives - 1
+print(lives)
 
-template = f"Hola, mi nombre es {name} y mi apellido es {last_name}"
-print('v3', template)
-print("\n")
+lives -= 1
+print(lives)
+
+lives -= 5
+print(lives)
+
+lives += 5
+print(lives)
+
+number = 4500000000000000000.1
+print(number)
+
+number_b = 0.0000000000000001
+print(number_b)
