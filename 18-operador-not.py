@@ -6,6 +6,7 @@ print('clase 18: operadores NOT')
 print('=====')
 print('\n')
 
+
 print('not')
 print(not True)
 print(not False)
