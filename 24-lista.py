@@ -42,3 +42,4 @@ print('\n')
 
 print('Recoriendo una lista')
 print(' numbers[:3] =',numbers[:3])
+print(' numbers[:-1] =',numbers[:-1])

@@ -3,42 +3,53 @@ import random
 os.system('clear')
 
 print('=====')
-print('clase 24: Lista')
+print('clase 25: Métodos de Lista')
 print('=====')
 print('\n')
+
+
+list_number = [1,2,3,5]
+list_task = ['work','study','play']
+
 print('====')
-
-types = [1, True, 'hola']
-numbers = [1, 2, 3, 4]
-tasks = ['make a dishes', 'play videogames']
-
-print(numbers)
-print(tasks)
-print(types)
+print('Leer de un lista')
+print('====')
+print('Leer de una lista')
+print('list_task[1]   : ', list_task[1] )
+print('list_number[1] : ', list_number[1] )
 print('\n')
 
-print('tipo de dato de lista numbers :',type(numbers))
-print('tipo de dato de lista task :',type(tasks))
-print('tipo de dato de lista  types:',type(types))
+print('====')
+print('Agregar en la ultima posición de la lista')
+print('====')
+print('list_number ',  list_number.append(700))
 print('\n')
 
-print('Accediendo a un valor de la lista')
-print('numbers[0] = ',numbers[0])
-print('tasks[0] = ', tasks[0])
+print('====')
+print('Agregar en una posicion específica')
+print('====')
+print('Agregar en una posicion de la lista')
+print('list_number.insert(-1, 7)  ',  list_number.insert(-1,7))
+print('list_number.insert(4, 6)  ',  list_number.insert(7,6))
+print(list_number)
 print('\n')
 
-print('Reemplazo de un valor en la lista')
-print(' tasks[0] = "watch platzi courses"  ')
-print(' tasks[1] = "do the dishes" ')
-tasks[0] = 'watch platzi courses'
-tasks[1] = 'do the dishes'
-print(tasks)
+
+print('====')
+print('Agregando')
+print('====')
+print('Agregar en una posicion de la lista')
+print('list_number.insert(-1, 7)  ',  list_number.insert(-1,7))
+print('list_number.insert(4, 6)  ',  list_number.insert(7,6))
+print(list_number)
 print('\n')
 
-print ('Usando el operador in')
-print('True in types = ', True in types)
-print(' "hola" in types = ','hola' in types)
-print('\n')
 
-print('Recoriendo una lista')
-print(' numbers[:3] =',numbers[:3])
+print('====')
+print('Eliminando ')
+print('====')
+print('Agregar en una posicion de la lista')
+print('list_number.pop()   ',  list_number.pop())
+print('list_number.pop(0)  ',  list_number.pop(0))
+print(list_number)
+print('\n')
