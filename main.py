@@ -3,7 +3,7 @@ import random
 os.system('clear')
 
 print('=====')
-print('clase 26: tuplas')
+print('clase 26: Diccionario')
 print('=====')
 print('\n')
 
