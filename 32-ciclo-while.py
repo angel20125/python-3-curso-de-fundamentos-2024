@@ -17,7 +17,7 @@ while counter < 10:
   print( counter )
 print ('\n')
 
-
+#la sentencia break rompe el ciclo
 print('=====')
 print( 'While / break' )
 print('=====')
@@ -31,7 +31,7 @@ while counter < 20:
 print ('\n')
 
 
-
+#la senticia continue no rompe el ciclo, salta la logica
 print('=====')
 print( 'While / continue' )
 print('=====')
