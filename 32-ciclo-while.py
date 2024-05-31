@@ -31,7 +31,7 @@ while counter < 20:
 print ('\n')
 
 
-#la senticia continue no rompe el ciclo, salta la logica
+#la senticia continue salta a la siguiente iteracion, ignora toda la logica
 print('=====')
 print( 'While / continue' )
 print('=====')
