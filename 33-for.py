@@ -16,6 +16,23 @@ for element in range(1,11):
   print(element)
 print('\n')
 
+#salida
+'''
+=====
+Ciclo for
+=====
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+'''
+
 
 print('=====')
 print('Ciclo for con list')
@@ -25,6 +42,17 @@ print('my_list =', my_list)
 for element in my_list:
   print(element)
 print('\n')
+#salida
+'''
+=====
+Ciclo for con list
+=====
+my_list = [20, 74, 84, 49]
+20
+74
+84
+49
+'''
 
 
 print('=====')
@@ -35,6 +63,16 @@ print( 'my tuple = ', my_tuple  )
 for element in my_tuple:
   print(element)
 print('\n')
+#salida
+'''
+=====
+Ciclo for con tuple
+=====
+my tuple =  ('nico', 'juli', 'santi')
+nico
+juli
+santi
+'''
 
 
 print('=====')
@@ -47,9 +85,22 @@ products = {
   'category': 'computers'
 }
 print(products)
-for product in products:
-  print(product)
+for key in products:
+  print('atributo: ', key)
 print('\n')
+#salida
+'''
+Este caso se imprime las llaves básicamente
+
+=====
+Ciclo for con diccionario ejemplo #1
+=====
+{'name': 'laptop', 'price': 1000, 'discount': 10, 'category': 'computers'}
+atributo:  name
+atributo:  price
+atributo:  discount
+atributo:  category
+'''
 
 
 print('=====')
@@ -66,6 +117,20 @@ for key in products:
   print(key,'=>',products[key])
 print('\n')
 
+#salida
+'''
+Es este caso obtenmo el par value, key
+=====
+Ciclo for con diccionario ejemplo #2
+=====
+products =  {'name': 'laptop', 'price': 1000, 'discount': 10, 'category': 'computers'}
+name => laptop
+price => 1000
+discount => 10
+category => computers
+'''
+
+
 
 print('=====')
 print('Ciclo for con diccionario ejemplo #3')
@@ -80,6 +145,17 @@ print('products = ',products)
 for key, value in products.items():
   print(key,'=>', value)
 print('\n')
+#salida
+'''
+=====
+Ciclo for con diccionario ejemplo #3
+=====
+products =  {'name': 'laptop', 'price': 1000, 'discount': 10, 'category': 'computers'}
+name => laptop
+price => 1000
+discount => 10
+category => computers
+'''
 
 
 
@@ -106,4 +182,19 @@ for person in people:
 
 print('\n')
 for person in people:
-  print('name =>', person['name'])
+  print('name =>  ', person['name'])
+
+#salida
+'''
+=====
+Ciclo for con lista/diccionario
+=====
+{'name': 'nico', 'age': 34}
+{'name': 'zule', 'age': 45}
+{'name': 'santi', 'age': 4}
+
+
+name => nico
+name => zule
+name => santi
+'''
