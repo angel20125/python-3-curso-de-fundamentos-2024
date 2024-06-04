@@ -17,6 +17,17 @@ print("last Name:", my_last_name)
 print("tipo de dato de my_age: ", type(my_name))
 print("tipo de dato de my_las_name: ", type(my_last_name))
 print("\n")
+'''
+#salida
+
+Tipo de datos string
+=====
+Name:  Angel
+last Name: Quintero
+tipo de dato de my_age:  <class 'str'>
+tipo de dato de my_las_name:  <class 'str'>
+'''
+
 
 
 #Tipo de datos: int
@@ -27,19 +38,33 @@ my_age=27
 print("Age",my_age)
 print("tipo de dato de my_age: ", type(my_name))
 print("\n")
+'''
+#salida
+
+Tipo de datos int
+=====
+Age 27
+tipo de dato de my_age:  <class 'str'>
+'''
+
 
 #Tipo de datos: boolean True / False, la primera letra de True/false debe ser mayuscula
-
 print("Tipo de datos boolean")
 print("=====")
 is_single= True
 print("is single",is_single)
 print("tipo de dato de my_age: ", type(is_single))
 print("\n")
+'''
+#salida
 
+Tipo de datos boolean
+=====
+is single True
+tipo de dato de my_age:  <class 'bool'>
+'''
 
 #Los tipos de datos ingresados por consolas son string
-
 print("Ingrese sus edad y su nombre")
 print("=====")
 my_name = input("Ingrese su nombre:  ")
@@ -49,3 +74,14 @@ print("Tipo de dato my_age, my_name ", type(my_age) ," ", type(my_name))
 print("Tipo de dato de la variable my_age, my_name")
 
 print("\n")
+'''
+#salida
+
+Ingrese sus edad y su nombre
+=====
+Ingrese su nombre:  Angel
+Ingrese su edad:  Quintero
+Su nombre es:  Angel  y su edad es:  Quintero  años
+Tipo de dato my_age, my_name  <class 'str'>   <class 'str'>
+Tipo de dato de la variable my_age, my_name
+'''
